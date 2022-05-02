@@ -1,0 +1,35 @@
+Thais Santos Barbosa
+
+Projeto: N1 2B
+
+Desafio: L-Systems
+Codificação em Java
+
+Gramática da linguagem:
+
+Σ   : Alfabeto da linguagem
+n   : Passos, etapas
+ω   : Axioma, condição inicial
+δ   : Angulo
+pX  : Regras de produção
+
+_inicio
+Σ : v, L, h
+n : 10
+ω : A
+δ : 90
+p1 : A -> AvA
+p2 : A -> AvL
+p3 : A -> hvA
+p4 : A -> vazio
+
+Exemplo:
+0: AvA
+1: AvLvhvA
+2: AvLvLvhvhvA
+3: vLvLvhvhv
+
+Semântica dos elementos do alfabeto da linguagem:
+    v - Desenha linha vertical de baixo para cima;
+    L - Desenha linha horizontal da direita para a esquerda.
+    h - Desenha linha horizontal da esquerda para a direita.
